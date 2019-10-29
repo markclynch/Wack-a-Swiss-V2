@@ -3,7 +3,7 @@ import { StyleSheet, View, Image, TouchableWithoutFeedback } from 'react-native'
 
 const Swiss = props => {
   const { index, handlePress, wackable } = props
-  console.log(wackable)
+
   return !wackable ? (
     <View>
       <TouchableWithoutFeedback onPress={() => handlePress(index)}>
